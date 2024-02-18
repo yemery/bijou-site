@@ -44,10 +44,10 @@ This repository contains the front-end code for a Jewellery Shop Website built u
 
 ## Credits
 
-- Some images and Design inspiration used in this project are sourced from [source website](https://www.daisyjewellery.com/).
+- Some images and Design inspiration used in this project are sourced from [here](https://www.daisyjewellery.com/).
 
 ## Scraper Data
 
-- The product data showcased on this website is sourced from [Source Website] using BeautifulSoup (bs4) and Selenium.
+- The product data showcased on this website is sourced from [here](https://www.daisyjewellery.com/) using BeautifulSoup (bs4) and Selenium.
 
 
