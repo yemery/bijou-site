@@ -6,6 +6,29 @@ const navbarItems = [
     {id:2, to: '/Blog', label: 'Blog' },
     {id:3, to: '/Contact', label: 'Contact' },
   ];
- 
 
-export { navbarItems};
+  const categories = [
+    {
+      id: 1,
+      url: "https://www.daisyjewellery.com/cdn/shop/files/DoWhatYouLove_CategoryBlocks_Artboard_1.jpg?v=1706785407",
+      name: "Necklaces"
+    },
+    {
+      id: 2,
+      url: "https://www.daisyjewellery.com/cdn/shop/files/DoWhatYouLove_CategoryBlocks_Artboard_2.jpg?v=1706785449",
+      name: "Earrings"
+    },
+    {
+      id: 3,
+      url: "https://www.daisyjewellery.com/cdn/shop/files/DoWhatYouLove_CategoryBlocks_Artboard_4.jpg?v=1706785487",
+      name: "Bracelets"
+    },
+    {
+      id: 4,
+      url: "https://www.daisyjewellery.com/cdn/shop/files/DoWhatYouLove_CategoryBlocks_Artboard_3.jpg?v=1706785473",
+      name: "Rings"
+    }
+  ];
+  
+
+export { navbarItems,categories};
