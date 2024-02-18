@@ -4,8 +4,13 @@ import Navbar from "../components/Navbar";
 
 const AppLayout = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [ isCartOpen, setCartOpen ] = useState(false);
+  
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
+  };
+  const toggleCart = () => {
+    setMenuOpen(!isCartOpen);
   };
   
   return (
@@ -14,7 +19,8 @@ const AppLayout = () => {
 
       {isMenuOpen ? null : (
         <>
-          <Outlet />{" "}
+        <div className="mt-20">
+          <Outlet  />{" "}</div>
         </>
       )
     }
