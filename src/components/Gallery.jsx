@@ -5,7 +5,7 @@ const Gallery = () => {
   return (
     <>
 <div className='mt-9 flex flex-col gap-9'>
-<p className='max-w-[1480px]  m-auto w-full font-semibold'>Unleash your inner sparkle with our fine jewelry, perfect for every day</p>
+<p className='max-w-[1480px]  m-auto w-full font-semibold px-4'>Unleash your inner sparkle with our fine jewelry, perfect for every day</p>
 
 
 <div className="grid grid-cols-4">

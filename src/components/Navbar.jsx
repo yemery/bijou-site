@@ -6,7 +6,7 @@ import { GrMenu, GrClose } from "react-icons/gr";
 import { MdArrowOutward } from "react-icons/md";
 const Navbar = ({ isMenuOpen, toggleMenu }) => {
   return (
-    <div className="w-full h-[80px] bg-white border-bc fixed top-0 left-0 ">
+    <div className="w-full h-[80px] bg-white border-bc fixed top-0  z-10">
       <div className="md:max-w-[1480px]  max-w-[600px]  m-auto w-full h-full flex justify-between items-center  px-4">
         <div className="font-sans font-semibold">
           {" "}

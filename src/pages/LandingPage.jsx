@@ -1,11 +1,13 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import About from '../components/Gallery'
+import Gallery from '../components/Gallery'
+import SliderSection from '../components/SliderSection'
 
 const LandingPage = () => {
   return (
     <> <Hero/>
-        <About/>
+        <Gallery/>
+        <SliderSection/>
     </>
        
   )
