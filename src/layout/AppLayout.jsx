@@ -1,6 +1,7 @@
 import React, {  useState } from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const AppLayout = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -20,12 +21,14 @@ const AppLayout = () => {
       {isMenuOpen ? null : (
         <>
         <div className="mt-20">
-          <Outlet  />{" "}</div>
+          <Outlet  />{" "}
+          
+          <Footer/>
+          </div>
         </>
       )
     }
-    {/* <SocialLinks/>
-    <QuotesSection/> */}
+
     </>
   );
 };

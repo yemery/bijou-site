@@ -1,3 +1,4 @@
+import { RiTiktokFill,RiPinterestFill,RiInstagramLine,RiFacebookCircleFill,RiTwitterFill } from "react-icons/ri";
 
 const navbarItems = [
     {id:0, to: '/', label: 'Home' },
@@ -110,5 +111,62 @@ const items=[
     "price": 109.99
   }
 ]
+const socials = [
+  {
+    id: 1,
+    path: "https://www.facebook.com/",
+    icon: <RiFacebookCircleFill />
+  },
+  {
+    id: 2,
+    path: "https://twitter.com/",
+    icon: <RiTwitterFill />
+  },
+  {
+    id: 3,
+    path: "https://www.instagram.com/",
+    icon: <RiInstagramLine /> 
+  },
+  {
+    id: 4,
+    path: "https://www.tiktok.com/",
+    icon:<RiTiktokFill />
+  },
+  {
+    id: 5,
+    path: "https://www.pinterest.com/",
+    icon: <RiPinterestFill />
+  }
+];
 
-export { navbarItems,categories,items};
+const footer = [
+  {
+    id: 1,
+    name: "Support",
+    labels: [
+      { id: 1, name: "Label 1.1", path: "/category1/label1" },
+      { id: 2, name: "Label 1.2", path: "/category1/label2" },
+      { id: 3, name: "Label 1.3", path: "/category1/label3" }
+    ]
+  },
+  {
+    id: 2,
+    name: "company",
+    labels: [
+      { id: 4, name: "Label 2.1", path: "/category2/label1" },
+      { id: 5, name: "Label 2.2", path: "/category2/label2" },
+      { id: 6, name: "Label 2.3", path: "/category2/label3" }
+    ]
+  },
+  {
+    id: 3,
+    name: "shop",
+    labels: [
+      { id: 7, name: "Label 3.1", path: "/category3/label1" },
+      { id: 8, name: "Label 3.2", path: "/category3/label2" },
+      { id: 9, name: "Label 3.3", path: "/category3/label3" }
+    ]
+  }
+];
+
+export { navbarItems,categories,items,socials,footer};
