@@ -6,7 +6,9 @@ import ImageGallery from '../components/ImageGallery'
 
 const LandingPage = () => {
   return (
-    <> <Hero/>
+    <> 
+    
+    <Hero/>
         <Gallery/>
         <SliderSection/>
         <ImageGallery/>

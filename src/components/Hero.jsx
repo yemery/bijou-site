@@ -17,6 +17,10 @@ const Hero = () => {
           </li>
         </ul>
       </div>
+      {/* call it here  */}
+      {/* <div className="sidebar h-[100vh] w-[300px] bg-white  sticky right-0 top-0 ">
+
+      </div> */}
     </>
   );
 };
