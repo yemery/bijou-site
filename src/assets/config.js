@@ -168,5 +168,12 @@ const footer = [
     ]
   }
 ];
+const imagesGallery = [
+  "https://www.daisyjewellery.com/cdn/shop/files/DoWhatYouLove_CategoryBlocks_Artboard_13_3760x.jpg?v=1707320653",
+  "https://www.messika.com/media/ultraslider/slides/home-fiery-messika-slider-desktop-1.jpg",
+  
+]
+;
 
-export { navbarItems,categories,items,socials,footer};
+
+export { navbarItems,categories,items,socials,footer, imagesGallery};

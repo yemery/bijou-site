@@ -46,10 +46,8 @@ module.exports = {
     },
     backgroundImage: {
       'hero': "url('https://www.daisyjewellery.com/cdn/shop/files/DoWhatYouLove_HomepageHero_draft1_3760x.jpg?v=1706802356')",
-      'cat1': "url('https://i.pinimg.com/564x/95/27/ab/9527ab3d53adea07bdeccfa856cc8fbb.jpg')",
-      'cat2': "url('https://i.pinimg.com/564x/b2/0d/2c/b20d2c46c013a411bc95c6415482c05d.jpg')",
-      'cat3': "url('https://i.pinimg.com/564x/b2/0d/2c/b20d2c46c013a411bc95c6415482c05d.jpg')",
-      'cat4': "url('https://i.pinimg.com/564x/b2/0d/2c/b20d2c46c013a411bc95c6415482c05d.jpg')",
+      // 'hero': "url('https://www.daisyjewellery.com/cdn/shop/files/DoWhatYouLove_CategoryBlocks_Artboard_13_3760x.jpg?v=1707320653')",
+   
     }
   },
   plugins: [
