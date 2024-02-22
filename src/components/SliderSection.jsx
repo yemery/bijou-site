@@ -38,7 +38,7 @@ const SliderSection = () => {
               slidesPerView: 2,
             },
             639: {
-              slidesPerView: 3,
+              slidesPerView: 2,
             },
             865: {
               slidesPerView: 4,

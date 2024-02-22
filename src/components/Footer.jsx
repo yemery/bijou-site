@@ -26,7 +26,7 @@ const Footer = () => {
                     <ul className="flex flex-col gap-2">    
                         {e.labels.map((e)=>(
                             <>
-                            <li className="text-xs">{e.name}</li></>
+                            <li className="text-xs"><Link to={e.path}>{e.name}</Link> </li></>
                         ))}
                     </ul>
                 </div>
@@ -34,13 +34,15 @@ const Footer = () => {
             ))
        }
 
-       <div>
+       <div className="flex flex-col gap-y-1 ">
        <h3 className="font-semibold text-base">Join our news letter</h3>
       <form action="" method="post">
-      <input type="text" placeholder="Enter Your email address" className="input input-bordered  w-full max-w-xs border-black text-xs text-gray-400" />
-      <button type="button" class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 me-2 mb-2">
-Connect with MetaMask
+     <div className="flex gap-x-4">
+     <input type="text" class="outline-none	  border-0 border-b-2 border-solid border-b-black py-2 px-1 block w-full border-gray-200 text-xs  disabled:opacity-50 disabled:pointer-events-none uppercase	" placeholder="Email"/>
+      <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold  border-b-black bg-brown-700 text-white  ">
+Submit
 </button>
+     </div>
       </form>
        </div>
       </div>
