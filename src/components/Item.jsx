@@ -3,7 +3,7 @@ import React from 'react'
 const Item = ({image,title,subtitle,price}) => {
   return (
     <>
-    <div className='min-w-80 h-[400px] '>
+    <div className=' h-[400px] w-full'>
     <div className={`h-[80%] bg-white w-full `} >
         <img className="w-full h-full" src={image} alt="" />
     </div>

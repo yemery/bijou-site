@@ -39,7 +39,7 @@ const Footer = () => {
       <form action="" method="post">
      <div className="flex gap-x-4">
      <input type="text" class="outline-none	  border-0 border-b-2 border-solid border-b-black py-2 px-1 block w-full border-gray-200 text-xs  disabled:opacity-50 disabled:pointer-events-none uppercase	" placeholder="Email"/>
-      <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold  border-b-black bg-brown-700 text-white  ">
+      <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold  border-b-black bg-brown-400 text-black  ">
 Submit
 </button>
      </div>

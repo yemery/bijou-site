@@ -8,7 +8,7 @@ const Gallery = () => {
 <p className='max-w-[1480px]  m-auto w-full font-semibold px-4'>Unleash your inner sparkle with our fine jewelry, perfect for every day</p>
 
 
-<div className="grid grid-cols-4">
+<div className="grid grid-cols-2 md:grid-cols-4">
     {
         categories.map((e)=>(
             <>
