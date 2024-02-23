@@ -10,13 +10,6 @@ const Footer = () => {
           {" "}
           <Link to="/" className="text-3xl">JewelJazz</Link>
           <i className="text-xs font-light">@ 2024 All rights reserved</i>
-          {/* <div className="flex flex-row gap-x-2 w-full ">
-            {socials.map((e) => (
-              <>
-                <Link key={e.id} to={e.path} className="hover:text-orange-950">{e.icon}</Link>
-              </>
-            ))}
-          </div> */}
           <Socials/>
         </div>
        
