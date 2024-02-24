@@ -1,12 +1,15 @@
 import React from 'react'
 import { addressInfo } from '../../assets/config'
+import MiniHeader from '../MiniHeader'
 
 const ContactForm = () => {
   return (
-    <div className='max-w-[80%]  rounded m-auto p-4  grid grid-cols-2 gap-2 mt-24'>
-      <div className="flex flex-col gap-5">
-        <p className='font-medium'>contact us</p>
-        <p className='text-sm'>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.</p>
+    <>
+    <MiniHeader image="https://www.daisyjewellery.com/cdn/shop/files/NY-Hero-1_2x_cb62cb6a-d292-42ae-856f-18c8d48a6467_3360x.png?v=1613604857" value="contact us"/>
+    <div className='max-w-[80%]  rounded m-auto p-4  grid  md:grid-cols-2 gap-2 mt-16 '>
+      <div className="space-y-2">
+        <p className='font-medium text-xl'>contact us</p>
+        <p className='text-xs'>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque sagittis ante, ac tincidunt sem venenatis ut.</p>
         <div className="flex flex-col gap-4">
   {addressInfo.map((e)=>(
     <>
@@ -14,7 +17,7 @@ const ContactForm = () => {
       <div className="text-xl">
         {e.icon }
       </div>
-      <div className="gap-y-1 flex flex-col">
+      <div className="space-y-1 ">
         <p className='text-xs font-medium'>{e.label}</p>
         <p className='text-xs'>{e.value}</p>
       </div>
@@ -24,7 +27,7 @@ const ContactForm = () => {
 </div>
       </div>
       <div className="">
-      <form action="#" class="space-y-8">
+      <form action="#" class="space-y-4">
           <div>
               <label for="email" class="block mb-2 text-sm font-medium ">Your email</label>
               <input type="email" id="email" class="shadow-sm  border border-gray-400 text-gray-900 text-sm rounded-lg block w-full p-2.5  " placeholder="name@flowbite.com" required/>
@@ -45,7 +48,7 @@ Submit
       </div>
 
 
-    </div>
+    </div></>
   )
 }
 
