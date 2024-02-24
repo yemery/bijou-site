@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import LandingPage from '../pages/LandingPage'
 import AppLayout from '../layout/AppLayout'
 import About from '../components/About'
+import Contact from '../pages/Contact'
 
 const AppRouter = () => {
   return (
@@ -11,8 +12,8 @@ const AppRouter = () => {
         <Route path="/" element={<AppLayout/>}>
         <Route index element={<LandingPage />} />
          <Route path="About" element={<About />} />
-        {/*<Route path="/contact" element={<Contact />} />
-          <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+          {/*<Route path="/projects" element={<Projects />} />
           <Route path="*" element={<ErrorRouter />} /> */}
           </Route>
       </Routes>

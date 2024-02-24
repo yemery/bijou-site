@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { navbarItems } from "../assets/config";
 import { Link, useLocation } from "react-router-dom";
-import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { GrMenu, GrClose } from "react-icons/gr";
 import { MdOutlineShoppingCart,MdOutlineRemoveShoppingCart } from "react-icons/md";
 import Socials from "./Socials";
@@ -26,7 +25,6 @@ const Navbar = () => {
   };
   let location = useLocation();
   const [url, setUrl] = useState(null);
-
   useEffect(() => {
     setUrl(location.pathname)
     console.log(location.pathname)
@@ -46,7 +44,7 @@ const Navbar = () => {
                 <>
                   <li key={e.id} className="flex flex-col items-center  ">
                     {" "}
-                    <Link to={e.to}  className={`${url == e.to ? "font-semibold underline" :""}`}>
+                    <Link to={e.to}  className={`${url === e.to ? "font-semibold " :""}`}>
                       {e.label}
                     </Link>
                     {/* <span className="h-1 w-1 bg-gray-600 rounded-full"></span> */}

@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { socials,footer } from "../assets/config";
+import { footer } from "../assets/config";
 import Socials from "./Socials";
 const Footer = () => {
   return (
     <>
-      <div className="mt-10 md:max-w-[1480px]  max-w-[600px]  m-auto w-full  flex flex-col  justify-between  px-4 py-12   md:flex-row  gap-8">
+      <div className="mt-10 md:max-w-[1480px]  max-w-[600px]  m-auto w-full  flex flex-col  justify-between  px-4 py-12   md:flex-row  gap-8 ">
         <div className="font-sans font-semibold flex flex-col h-full gap-y-3 	">
           {" "}
           <Link to="/" className="text-3xl">JewelJazz</Link>
-          <i className="text-xs font-light">@ 2024 All rights reserved</i>
+          <i className="text-xs font-light">@ 2024 All rights reserved <br /> <span className="text-[10px]">credits : daisyjewellery</span> </i>
           <Socials/>
         </div>
        

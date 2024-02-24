@@ -1,12 +1,12 @@
 import { RiTiktokFill,RiPinterestFill,RiInstagramLine,RiFacebookCircleFill,RiTwitterFill } from "react-icons/ri";
-
+import { CiClock2, CiLocationOn, CiPhone } from "react-icons/ci";
 const navbarItems = [
     {id:0, to: '/', label: 'Home' },
     {id:1, to: '/About', label: 'About' },
     {id:2, to: '/Shop', label: 'Shop' },
-    {id:2, to: '/Blog', label: 'Blog' },
-    {id:3, to: '/Gifts', label: 'Gifts' },
-    {id:3, to: '/Contact', label: 'Contact' },
+    {id:3, to: '/Blog', label: 'Blog' },
+    // {id:3, to: '/Gifts', label: 'Gifts' },
+    {id:4, to: '/Contact', label: 'Contact' },
   ];
 
   const categories = [
@@ -164,7 +164,7 @@ const footer = [
     labels: [
       { id: 7, name: "Label 3.1", path: "/category3/label1" },
       { id: 8, name: "Label 3.2", path: "/category3/label2" },
-      { id: 9, name: "Label 3.3", path: "/category3/label3" }
+      { id: 9, name: "About", path: "/category3/label3" }
     ]
   }
 ];
@@ -174,6 +174,23 @@ const imagesGallery = [
   
 ]
 ;
+const addressInfo = [
+  {
+    label: "Our Address",
+    value: "1230 Maecenas Street Donec Road\nNew York, EEUU",
+    icon: <CiLocationOn  />
+  },
+  {
+    label: "Contact",
+    value: "Mobile: +1 (123) 456-7890\nMail: tailnext@gmail.com",
+    icon: <CiPhone />
+  },
+  {
+    label: "Working hours",
+    value: "Monday - Friday: 08:00 - 17:00\nSaturday & Sunday: 08:00 - 12:00",
+    icon: <CiClock2 />
+  }
+];
 
 
-export { navbarItems,categories,items,socials,footer, imagesGallery};
+export { navbarItems,categories,items,socials,footer, imagesGallery,addressInfo};
