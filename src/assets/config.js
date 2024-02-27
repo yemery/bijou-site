@@ -3,7 +3,7 @@ import { CiClock2, CiLocationOn, CiPhone } from "react-icons/ci";
 const navbarItems = [
     {id:0, to: '/', label: 'Home' },
     {id:1, to: '/About', label: 'About' },
-    {id:2, to: '/Shop', label: 'Shop' },
+    {id:2, to: '/ProductList', label: 'Shop' },
     {id:3, to: '/Blog', label: 'Blog' },
     // {id:3, to: '/Gifts', label: 'Gifts' },
     {id:4, to: '/Contact', label: 'Contact' },
@@ -169,8 +169,16 @@ const footer = [
   }
 ];
 const imagesGallery = [
-  "https://www.daisyjewellery.com/cdn/shop/files/DoWhatYouLove_CategoryBlocks_Artboard_13_3760x.jpg?v=1707320653",
-  "https://www.messika.com/media/ultraslider/slides/home-fiery-messika-slider-desktop-1.jpg",
+
+  "https://i.pinimg.com/564x/4e/27/a2/4e27a228925e6c07f7e4309563d36163.jpg",
+  "https://i.pinimg.com/564x/f0/ad/33/f0ad330617f795226a53e8120640ca16.jpg",
+  "https://i.pinimg.com/564x/3f/f6/23/3ff623f6966dc0f51700b37b7be1f75f.jpg",
+  "https://i.pinimg.com/564x/82/3f/26/823f269fbccf0f57adb94282c447def3.jpg",
+  "https://i.pinimg.com/564x/71/0c/80/710c80c6b8777a632e193ca149e72d62.jpg",
+  "https://i.pinimg.com/564x/4e/27/a2/4e27a228925e6c07f7e4309563d36163.jpg",
+  "https://i.pinimg.com/564x/18/f0/70/18f070b2bf74528bad58a9cbe01d5c8b.jpg",
+  "https://i.pinimg.com/564x/98/64/aa/9864aa7daba4d15881e80cd609322b92.jpg"
+  
   
 ]
 ;
@@ -191,6 +199,35 @@ const addressInfo = [
     icon: <CiClock2 />
   }
 ];
+const aboutContent = [
+  {
+    type: "paragraph",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum, lorem a suscipit vulputate, felis lorem sollicitudin magna."
+  },
+  {
+    type: "image",
+    src: "https://via.placeholder.com/150",
+    alt: "Image 1"
+  }, {
+    type: "image",
+    src: "https://via.placeholder.com/150",
+    alt: "Image 2"
+  },
+  {
+    type: "paragraph",
+    content: "Integer eget magna sit amet justo accumsan sollicitudin."
+  },
+ 
+  {
+    type: "paragraph",
+    content: "Suspendisse potenti. Mauris et massa vitae nisl eleifend cursus."
+  },
+  {
+    type: "image",
+    src: "https://via.placeholder.com/150",
+    alt: "Image 3"
+  }
+];
 
 
-export { navbarItems,categories,items,socials,footer, imagesGallery,addressInfo};
+export { navbarItems,categories,items,socials,footer, imagesGallery,addressInfo,aboutContent};

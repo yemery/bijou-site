@@ -6,20 +6,22 @@ import Footer from "../components/Footer";
 const AppLayout = () => {
   
 
- 
-  
+   
   return (
-    <>
+    <div className="flex flex-col h-screen">
+    
       <Navbar  />
-     
-      <div className="mt-20">
+     <main className="mt-20 flex-1">
+
+  
           <Outlet  />{" "}
           
-          </div>
+       
+     </main>
         <Footer/>
         
-
-    </>
+</div>
+    
   );
 };
 

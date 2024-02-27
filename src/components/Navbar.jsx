@@ -44,7 +44,7 @@ const Navbar = () => {
                 <>
                   <li key={e.id} className="flex flex-col items-center  ">
                     {" "}
-                    <Link to={e.to}  className={`${url === e.to ? "font-semibold " :""}`}>
+                    <Link to={e.to}  className={`${url === e.to ? "font-semibold " :""}`}  >
                       {e.label}
                     </Link>
                     {/* <span className="h-1 w-1 bg-gray-600 rounded-full"></span> */}

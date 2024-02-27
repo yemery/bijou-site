@@ -2,7 +2,10 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Gallery from '../components/Gallery'
 import SliderSection from '../components/SliderSection'
-import ImageGallery from '../components/ImageGallery'
+// import ImageGallery from '../components/ImageGallery'
+
+
+import AutoSlider from '../components/AutoSlider'
 
 const LandingPage = () => {
   return (
@@ -11,7 +14,8 @@ const LandingPage = () => {
     <Hero/>
         <Gallery/>
         <SliderSection/>
-        <ImageGallery/>
+        {/* <ImageGallery/> */}
+        <AutoSlider/>
     </>
        
   )

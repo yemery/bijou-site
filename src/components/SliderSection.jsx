@@ -60,7 +60,7 @@ const SliderSection = () => {
           }}
         >
           {items.map((e) => (
-            <SwiperSlide >
+            <SwiperSlide key={e.id}>
               {" "}
               <Item {...e} />{" "}
             </SwiperSlide>

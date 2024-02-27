@@ -16,7 +16,7 @@ const Footer = () => {
        {
             footer.map((e)=>(
                 <>
-                <div className="flex flex-col gap-y-1 " >
+                <div className="flex flex-col gap-y-1 " key={e.id}>
                     <h3 className="font-semibold text-base">{e.name}</h3>
                     <ul className="flex flex-col gap-2">    
                         {e.labels.map((e)=>(

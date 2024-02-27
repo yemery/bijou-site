@@ -13,7 +13,7 @@ const ContactForm = () => {
         <div className="flex flex-col gap-4">
   {addressInfo.map((e)=>(
     <>
-    <div className="flex flex-row w-full items-center gap-x-4 ">
+    <div className="flex flex-row w-full items-center gap-x-4 " key={e.icon}>
       <div className="text-xl">
         {e.icon }
       </div>
@@ -29,15 +29,15 @@ const ContactForm = () => {
       <div className="">
       <form action="#" class="space-y-4">
           <div>
-              <label for="email" class="block mb-2 text-sm font-medium ">Your email</label>
+              <label htmlFor="email" class="block mb-2 text-sm font-medium ">Your email</label>
               <input type="email" id="email" class="shadow-sm  border border-gray-400 text-gray-900 text-sm rounded-lg block w-full p-2.5  " placeholder="name@flowbite.com" required/>
           </div>
           <div>
-              <label for="subject" class="block mb-2 text-sm font-medium ">Subject</label>
+              <label htmlFor="subject" class="block mb-2 text-sm font-medium ">Subject</label>
               <input type="text" id="subject" class="bshadow-sm  border border-gray-400 text-gray-900 text-sm rounded-lg block w-full p-2.5 " placeholder="Let us know how we can help you" required/>
           </div>
           <div class="sm:col-span-2">
-              <label for="message" class="block mb-2 text-sm font-medium">Your message</label>
+              <label htmlFor="message" class="block mb-2 text-sm font-medium">Your message</label>
               <textarea id="message" rows="6" class="bshadow-sm  border border-gray-400 text-gray-900 text-sm rounded-lg block w-full p-2.5 " placeholder="Leave a comment..."></textarea>
           </div>
           <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold  border-b-black bg-brown-400 text-black  ">

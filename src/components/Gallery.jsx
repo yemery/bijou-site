@@ -12,7 +12,7 @@ const Gallery = () => {
     {
         categories.map((e)=>(
             <>
-            <Link to={e.to}>
+            <Link to={e.to} key={e.id}>
             <div className='relative '>
             <img className="h-auto max-w-full  bg-cover bg-center" src={e.url} alt=""/>
             <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-bold flex flex-col items-center'>
