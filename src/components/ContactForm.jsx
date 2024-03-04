@@ -1,6 +1,6 @@
 import React from 'react'
-import { addressInfo } from '../../assets/config'
-import MiniHeader from '../MiniHeader'
+import { addressInfo } from '../assets/config'
+import MiniHeader from './MiniHeader'
 
 const ContactForm = () => {
   return (

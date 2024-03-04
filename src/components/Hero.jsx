@@ -13,7 +13,7 @@ const Hero = () => {
             <Link to="/ProductList"> Shop Now</Link>
           </li>
           <li className="min-w-72  bg-black py-3 px-5 text-base font-medium text-center text-white hover:bg-white hover:text-black cursor-pointer">
-            <Link> shop most gifted</Link>
+            <Link to="/contact"> Contact us</Link>
           </li>
         </ul>
       </div>

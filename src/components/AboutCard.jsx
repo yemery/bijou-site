@@ -10,7 +10,10 @@ const AboutCard = (props) => {
           )
         : ( 
           
-          <p className='w-full h-full flex justify-center items-center text-sm px-4'>{props.content}</p>
+          <p className='w-full h-full flex justify-center items-center text-sm px-4 font-medium' >
+            
+            
+            {props.content}</p>
         )
       }
 

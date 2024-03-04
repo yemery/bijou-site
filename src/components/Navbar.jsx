@@ -2,27 +2,27 @@ import React, { useEffect, useState } from "react";
 import { navbarItems } from "../assets/config";
 import { Link, useLocation } from "react-router-dom";
 import { GrMenu, GrClose } from "react-icons/gr";
-import { MdOutlineShoppingCart,MdOutlineRemoveShoppingCart } from "react-icons/md";
+import { MdOutlineShoppingCart} from "react-icons/md";
 import Socials from "./Socials";
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
-  const [isCartOpen, setCartOpen] = useState(false);
+  // const [isCartOpen, setCartOpen] = useState(false);
 
   const toggleMenu = () => {
-    if (isCartOpen) {
+    // if (isCartOpen) {
       
-      setCartOpen(!isCartOpen)
-    }
+    //   setCartOpen(!isCartOpen)
+    // }
     setMenuOpen(!isMenuOpen);
 
   };
-  const toggleCart = () => {
-    if (isMenuOpen) {
+  // const toggleCart = () => {
+  //   if (isMenuOpen) {
       
-      setMenuOpen(!isMenuOpen);
-    }
-    setCartOpen(!isCartOpen)
-  };
+  //     setMenuOpen(!isMenuOpen);
+  //   }
+  //   setCartOpen(!isCartOpen)
+  // };
   let location = useLocation();
   const [url, setUrl] = useState(null);
   useEffect(() => {
@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <>
       <div className="w-full h-[80px] bg-white border-b-black fixed top-0  z-10">
-        <div className="md:max-w-[1480px]  max-w-[600px]  m-auto w-full h-full flex justify-between items-center  px-4">
+        <div className="md:max-w-[1480px]  max-w-[600px]  m-auto  h-full flex justify-between items-center  px-4">
           <div className="font-sans font-semibold">
             {" "}
             <Link to="/">JewelJazz</Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
               ))}
               <li className="flex items-center cursor-pointer">
              
-                {!isCartOpen ?           <MdOutlineShoppingCart size={20} onClick={toggleCart} /> :           <MdOutlineRemoveShoppingCart size={20} onClick={toggleCart} />}
+                      <Link to="/cart"><MdOutlineShoppingCart size={20}  /> </Link> 
         
               
                 <i className="text-xs">0</i>
@@ -64,7 +64,7 @@ const Navbar = () => {
           <div className="md:hidden   flex items-center ">
             <ul className="flex  flex-row justify-between items-center gap-4">
               <li className="flex items-center cursor-pointer">
-                {!isCartOpen ?           <MdOutlineShoppingCart size={20} onClick={toggleCart} /> :           <MdOutlineRemoveShoppingCart size={20} onClick={toggleCart} />}
+           <MdOutlineShoppingCart size={20}  /> 
                 <i className="text-xs">0</i>
               </li>
               <li className="flex items-center">
@@ -100,7 +100,7 @@ const Navbar = () => {
           </div>
         )}
 
-        {isCartOpen && (
+        {/* {isCartOpen && (
           <div
             className="  w-[300px] bg-white  absolute right-0 top-0  mt-20 overflow-auto "
             style={{ height: "calc(100vh - 80px)" }}
@@ -110,7 +110,7 @@ const Navbar = () => {
 
             </div>
           </div>
-        )}
+        )} */}
       </div>
     </>
   );

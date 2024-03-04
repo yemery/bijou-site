@@ -8,7 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import { GrNext, GrPrevious } from "react-icons/gr";
-import Item from "./Item";
+import Item from "./Products/Item";
 const SliderSection = () => {
   return (
     <>

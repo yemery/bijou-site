@@ -5,6 +5,7 @@ import AppLayout from '../layout/AppLayout'
 import Contact from '../pages/Contact'
 import ProductList from '../pages/ProductList'
 import About from '../pages/About'
+import Cart from '../pages/Cart'
 
 const AppRouter = () => {
   return (
@@ -14,6 +15,7 @@ const AppRouter = () => {
         <Route index element={<LandingPage />} />
          <Route path="About" element={<About />} />
          <Route path="/ProductList" element={<ProductList/>} />
+         <Route path="/cart" element={<Cart/>} />
         <Route path="/contact" element={<Contact />} />
           {/*<Route path="/projects" element={<Projects />} />
           <Route path="*" element={<ErrorRouter />} /> */}

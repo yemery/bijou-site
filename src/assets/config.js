@@ -4,7 +4,7 @@ const navbarItems = [
     {id:0, to: '/', label: 'Home' },
     {id:1, to: '/About', label: 'About' },
     {id:2, to: '/ProductList', label: 'Shop' },
-    {id:3, to: '/Blog', label: 'Blog' },
+    // {id:3, to: '/Blog', label: 'Blog' },
     // {id:3, to: '/Gifts', label: 'Gifts' },
     {id:4, to: '/Contact', label: 'Contact' },
   ];
@@ -43,70 +43,70 @@ const items=[
   {
     "id": 1,
     "title": "Product 1",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://www.daisyjewellery.com/cdn/shop/files/polly-sayer-knot-chain-necklace-18ct-gold-plate-necklaces-daisy-london-33067435622539_1944x.jpg?v=1697711297",
     "subtitle": "Description of Product 1",
     "price": 19.99
   },
   {
     "id": 2,
     "title": "Product 2",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://www.daisyjewellery.com/cdn/shop/files/polly-sayer-knot-chain-necklace-18ct-gold-plate-necklaces-daisy-london-33067435622539_1944x.jpg?v=1697711297",
     "subtitle": "Description of Product 2",
     "price": 29.99
   },
   {
     "id": 3,
     "title": "Product 3",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://www.daisyjewellery.com/cdn/shop/files/polly-sayer-knot-chain-necklace-18ct-gold-plate-necklaces-daisy-london-33067435622539_1944x.jpg?v=1697711297",
     "subtitle": "Description of Product 3",
     "price": 39.99
   },
   {
     "id": 4,
     "title": "Product 4",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://www.daisyjewellery.com/cdn/shop/files/polly-sayer-knot-chain-necklace-18ct-gold-plate-necklaces-daisy-london-33067435622539_1944x.jpg?v=1697711297",
     "subtitle": "Description of Product 4",
     "price": 49.99
   },
   {
     "id": 5,
     "title": "Product 5",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://www.daisyjewellery.com/cdn/shop/files/polly-sayer-knot-chain-necklace-18ct-gold-plate-necklaces-daisy-london-33067435622539_1944x.jpg?v=1697711297",
     "subtitle": "Description of Product 5",
     "price": 59.99
   },
   {
     "id": 6,
     "title": "Product 6",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://www.daisyjewellery.com/cdn/shop/files/polly-sayer-knot-chain-necklace-18ct-gold-plate-necklaces-daisy-london-33067435622539_1944x.jpg?v=1697711297",
     "subtitle": "Description of Product 6",
     "price": 69.99
   },
   {
     "id": 7,
     "title": "Product 7",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://cdn.shopify.com/s/files/1/0343/0341/0315/products/seed-pearl-chain-necklace-18ct-gold-plate-necklaces-daisy-london-32199593132171_1944x.jpg?v=1680777438",
     "subtitle": "Description of Product 7",
     "price": 79.99
   },
   {
     "id": 8,
     "title": "Product 8",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://cdn.shopify.com/s/files/1/0343/0341/0315/products/seed-pearl-chain-necklace-18ct-gold-plate-necklaces-daisy-london-32199593132171_1944x.jpg?v=1680777438",
     "subtitle": "Description of Product 8",
     "price": 89.99
   },
   {
     "id": 9,
     "title": "Product 9",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://cdn.shopify.com/s/files/1/0343/0341/0315/products/seed-pearl-chain-necklace-18ct-gold-plate-necklaces-daisy-london-32199593132171_1944x.jpg?v=1680777438",
     "subtitle": "Description of Product 9",
     "price": 99.99
   },
   {
     "id": 10,
     "title": "Product 10",
-    "image": "https://via.placeholder.com/150",
+    "image": "https://cdn.shopify.com/s/files/1/0343/0341/0315/products/seed-pearl-chain-necklace-18ct-gold-plate-necklaces-daisy-london-32199593132171_1944x.jpg?v=1680777438",
     "subtitle": "Description of Product 10",
     "price": 109.99
   }
@@ -202,32 +202,46 @@ const addressInfo = [
 const aboutContent = [
   {
     type: "paragraph",
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum, lorem a suscipit vulputate, felis lorem sollicitudin magna."
+    content: "Timeless, effortless and everyday. Just like a daisy. We make luxury jewellery to make you feel good."
   },
   {
     type: "image",
-    src: "https://via.placeholder.com/150",
+    src: "https://bycharlotte.com.au/cdn/shop/files/About_Brand-Banner.jpg?v=1699592375&width=1600",
     alt: "Image 1"
   }, {
     type: "image",
-    src: "https://via.placeholder.com/150",
+    src: "https://bycharlotte.com.au/cdn/shop/files/About_Locket-Printing.jpg?v=1699592953&width=800",
     alt: "Image 2"
   },
   {
     type: "paragraph",
-    content: "Integer eget magna sit amet justo accumsan sollicitudin."
+    content: "Our story began in 2009, with co-founder Ruth Bewsey creating high quality jewellery designed to be worn everyday. Effortless style runs through everything we do at Daisy and our timeless not trend approach allows us to create things that are missing from our own jewellery box, and bring them to yours."
   },
  
   {
     type: "paragraph",
-    content: "Suspendisse potenti. Mauris et massa vitae nisl eleifend cursus."
+    content: "Creating jewellery with meaning is kind of our thing, whether that be through our iconic Chakra collection launched in 2010, through to our most recent collaboration collection with fashion house Shrimps. Pieces with meaning are our staples. Vintage-inspired shapes, premium recycled materials and hand-drawn motifs, it's our mission to create jewellery that makes you feel unapologetically yourself, in pieces you’ll love for years to come."
   },
   {
     type: "image",
-    src: "https://via.placeholder.com/150",
+    src: "https://bycharlotte.com.au/cdn/shop/files/Untitled-1_f8e949c4-d7df-441d-804d-5a6d7bd63384.jpg?v=1704855173&width=800",
     alt: "Image 3"
   }
 ];
+const filterOptions=[
+  {
+    "category": "TYPE",
+    "subPossibilities": ["BRACELET", "EARRINGS", "NECKLACE", "RINGS"]
+  },
+  {
+    "category": "MATERIAL",
+    "subPossibilities": ["GOLD", "SILVER"]
+  },
+  {
+    "category": "PRICE",
+    "subPossibilities": ["UNDER £100", "UNDER £250", "UNDER £50"]
+  }
+]
 
 
-export { navbarItems,categories,items,socials,footer, imagesGallery,addressInfo,aboutContent};
+export { navbarItems,categories,items,socials,footer, imagesGallery,addressInfo,aboutContent,filterOptions};
